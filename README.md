@@ -1,17 +1,17 @@
-## Income-Analytics-Dashboard
+# Income-Analytics-Dashboard
 
-## Project Summary
+# Project Summary
 
 This project showcases a complete analytical dashboard in Power BI that visualizes income data from two sources — Wise and PayPal. The goal is to analyze incoming payments, client behavior, and key performance indicators (KPIs) across a full year, combining technical processing and stylish storytelling.
 
-## Tools & Technologies
+# Tools & Technologies
 
 - Power BI Desktop
 - Power Query (M)
 - DAX (Data Analysis Expressions)
 - CSV data sources
 
-## Key Objectives
+# Key Objectives
 
 - Combine Wise and PayPal income data into a unified dataset
 - Clean and transform raw data (currency, text, dates, empty fields)
@@ -19,9 +19,9 @@ This project showcases a complete analytical dashboard in Power BI that visualiz
 - Create consistent KPI metrics for tracking income and client activity
 - Build a clear, visual, and intuitive dashboard using dark theme styling
 
-## Project Workflow
+# Project Workflow
 
-# 1. Data Preparation
+## 1. Data Preparation
 - Loaded two separate CSV files (Wise & PayPal)
 - Cleaned raw PayPal data (converted numeric formats, excluded personal top-ups, ensured date integrity)
 - Removed PayPal transactions already present in Wise exports to prevent double counting
@@ -32,7 +32,7 @@ This project showcases a complete analytical dashboard in Power BI that visualiz
 - AmountClean (parsed numeric format with proper locale)
 - Created and applied date hierarchy (Year > Quarter > Month)
 
-# 2. Data Model
+## 2. Data Model
 - Merged both tables into a single Statistic table
 - Established relationships with Date where needed
 - Removed circular dependencies and unnecessary columns
@@ -44,7 +44,7 @@ This project showcases a complete analytical dashboard in Power BI that visualiz
 - Unique Clients (by source)
 - WiseIncome, PayPalIncome and similar breakdowns
 
-## Design Theme
+# Design Theme
 
 - Dark Mode
 - Primary accents in yellow and orange
@@ -53,7 +53,7 @@ This project showcases a complete analytical dashboard in Power BI that visualiz
 - Manual border and padding adjustments for clarity
 - Adaptive labels and consistent formatting
 
-## Learnings & Highlights
+# Learnings & Highlights
 
 - Careful attention to data integrity, avoiding double-counting
 - Use of calculated columns and DAX measures for modularity
@@ -62,7 +62,7 @@ This project showcases a complete analytical dashboard in Power BI that visualiz
 - Project completed without using paid visuals or pro features
 - Deep dive into real-life income analytics and segmentation by source
 
-## Future Improvements (Optional)
+# Future Improvements (Optional)
 - Add parameter toggle for switching between Total / Source views
 - Client segmentation by volume/frequency
 - Profit margin analysis (if cost data available)
